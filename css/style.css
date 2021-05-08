@@ -1,0 +1,43 @@
+section{
+    
+    background-image: url(../img/micheile-henderson-LVU6vrOtbvs-unsplash.jpg);
+    
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+h1{
+    font-size: 76px;
+}
+
+
+
+.color-box{
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 30%;
+    display: flex;
+}
+.color-option{
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid #fed136;
+}
+i{ 
+background-color: #fed136;
+padding: 10px;
+height: fit-content;
+}
+.color-box ul{
+    display: flex;
+}
+.color-box li{
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    margin: 5px;
+}
